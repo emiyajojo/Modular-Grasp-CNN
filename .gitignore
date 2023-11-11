@@ -1,6 +1,5 @@
 *.txt
 !data_split/*.txt
-*.png
 *.pcd
 *.log
 *.pdf
