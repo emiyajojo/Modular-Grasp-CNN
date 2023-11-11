@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Anaconda_python/envs/gr_cnn/Lib/site-packages/torch/include/**",
+                "D:/Anaconda_python/envs/gr_cnn/Lib/site-packages/torch/",
+                "D:/Anaconda_python/envs/gr_cnn/include/",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/include/**",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/include",
+                "D:/Python/AI/Paper/Related_Paper/RGB-based/grasp_det_seg_cnn/include",
+                "D:/Python/AI/Paper/Related_Paper/RGB-based/grasp_det_seg_cnn/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\MinGW\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

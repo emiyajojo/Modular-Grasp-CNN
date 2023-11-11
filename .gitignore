@@ -1,0 +1,16 @@
+*.txt
+!data_split/*.txt
+*.png
+*.pcd
+*.log
+*.pdf
+!main.pdf
+output/*
+ckpt_files_OCID/*
+weights_pretrained/*
+README_.md
+grasp_det_seg_cnn.code-workspace
+temp.*
+S&P_log/*
+Gau_log/*
+shell.md

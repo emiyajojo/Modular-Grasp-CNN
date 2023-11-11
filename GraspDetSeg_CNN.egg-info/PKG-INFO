@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: GraspDetSeg-CNN
+Version: 0.1.dev22+g1cfeb2f.d20230527
+Summary: Grasp Detection and Segmentation for Pytorch, code based on Seamless Scene Segmentation (https://github.com/mapillary/seamseg).
+Home-page: 
+Author: Stefan Ainetter
+Author-email: stefan.ainetter@icg.tugraz.at
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE

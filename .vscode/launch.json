@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Anaconda_python\\envs\\gr_cnn\\Lib\\site-packages\\torch\\distributed\\launch.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                "--nproc_per_node=1",
+                "D:\\Python\\AI\\Paper\\Related_Paper\\RGB-based\\grasp_det_seg_cnn\\scripts\\test_det_seg_OCID.py",
+                "--local_rank", "0",
+                "--log_dir", "log",
+                "--config","D:\\Python\\AI\\Paper\\Related_Paper\\RGB-based\\grasp_det_seg_cnn\\grasp_det_seg\\config\\defaults\\det_seg_OCID.ini",
+                "--model","D:\\Python\\AI\\Paper\\Related_Paper\\RGB-based\\grasp_det_seg_cnn\\ckpt_files_OCID\\SP_pretrained\\model_last.pth.tar",
+                "--data","D:\\Python\\AI\\Paper\\Related_Paper\\RGB-based\\grasp_det_seg_cnn\\DATA\\OCID_grasp\\data_split",
+                "--out_dir","D:\\Python\\AI\\Paper\\Related_Paper\\RGB-based\\grasp_det_seg_cnn\\output\\org_output\\new_plus"
+            ]
+        }
+    ]
+}
